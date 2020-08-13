@@ -1,0 +1,28 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "[![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white&link=https://github.com/joaoxfernando/proffy)](https://github.com/joaoxfernando/proffy) &nbsp;&nbsp;[![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&link=https://github.com/joaoxfernando/proffy)](https://github.com/joaoxfernando/proffy) &nbsp;&nbsp;[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript&link=https://github.com/joaoxfernando/proffy)](https://github.com/joaoxfernando/proffy)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoxfernando/proffy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaoxfernando/proffy/issues"
+  },
+  "homepage": "https://github.com/joaoxfernando/proffy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2",
+    "sqlite-async": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
